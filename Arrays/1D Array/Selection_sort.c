@@ -8,7 +8,7 @@ int main()
   for(int i=0;i<n;i++)
     scanf("%d",&a[i]);
 //Selection Sort
-  for(int i=0;i<n-1;i++){ //moves the sorted araay
+  for(int i=0;i<n-1;i++){ //moves the sorted aray
     min=i;
     for(int j=i+1;j<n;j++){ //Finds minimum element
       if(a[j]<a[min])
