@@ -142,21 +142,6 @@ void ViewList()
   }
 }
 
-void viewList()
-{
-  struct node *newNode, *ptr;
-  if (START == NULL)
-    printf("List is empty");
-  else
-  {
-    ptr = START;
-    while (ptr != NULL)
-    {
-      printf("%d ", ptr->data);
-      ptr = ptr->next;
-    }
-  }
-}
 int CountNode()
 {
   struct node *ptr;
