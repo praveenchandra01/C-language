@@ -1,15 +1,10 @@
 #include<stdio.h>
-int N_Rev(int n)
+void N_Rev(int n)
 {
-  if(n==1)
-  {
-    printf("%d",n);
-  }
-  else
-  {
+  if (n==0) return;
+
     printf("%d ",n);
     N_Rev(n-1);
-  }
 
 }
 int main()

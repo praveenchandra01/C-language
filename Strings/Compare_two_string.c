@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<string.h>
-int compare_ignore_case(char str1[], char str2[])
+int compare_ignore_case(char *str1, char str2[])
 {
   int l1=strlen(str1);
   int l2=strlen(str2);

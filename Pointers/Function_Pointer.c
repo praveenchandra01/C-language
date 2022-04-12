@@ -6,7 +6,7 @@ int cube(int x){
   return x*x*x;
 }
 int calculate(int (*p) (int),int n){ //p points to square fun having only one arg.
-  return(p(n)); 
+  return(p(n));
 }
 int main()
 {
@@ -21,7 +21,7 @@ int main()
   switch(ch)
   {
     case 1:
-      printf("Square is %d",calculate(square,n)); //add. of square fun is passed
+      printf("Square is %d",calculate(square,n)); //address of square fun is passed
       break;
     case 2:
       printf("Cube is %d",calculate(cube,n));

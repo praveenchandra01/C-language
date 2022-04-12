@@ -12,7 +12,7 @@ int main()
   {
     for(j=0;j<4-i;j++)
     {
-      r=strcmp(str[j],str[j+1]); 
+      r=strcmp(str[j],str[j+1]);  //0-->same, -1-->dictionary-order
         if(r>0)
         {
           strcpy(s,str[j]);

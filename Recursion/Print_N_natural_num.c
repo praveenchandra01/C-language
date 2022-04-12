@@ -1,8 +1,8 @@
 #include<stdio.h>
-int PrintN(int n)
+void PrintN(int n)
 {
-  if (n==1)
-    printf(" %d ",n);
+  if (n==0)
+    return;
   else {
     PrintN(n-1);
     printf("%d ",n);
